@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://4otdq5cpjqm7"]
+
+[ext_resource type="Script" uid="uid://baw14cvb44wb3" path="res://玩家/玩家1/area_2d.gd" id="1_8iynt"]
+[ext_resource type="Texture2D" uid="uid://bia8kidxsltko" path="res://paddle.svg" id="2_0fp31"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lv41w"]
+
+[node name="Area2D" type="Area2D" unique_id=54661693]
+position = Vector2(108, 172)
+script = ExtResource("1_8iynt")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1290321204]
+scale = Vector2(2, 6)
+texture = ExtResource("2_0fp31")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1756649076]
+scale = Vector2(2, 6)
+shape = SubResource("RectangleShape2D_lv41w")

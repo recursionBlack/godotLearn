@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://beqdim0byrqh2" path="res://小球/area_2d.tscn" id="3_0riei"]
 [ext_resource type="Script" uid="uid://c34jybawoud6" path="res://地图/area_2d_4.gd" id="4_25082"]
 [ext_resource type="PackedScene" uid="uid://by5ju0r21t6pd" path="res://积分场景/node.tscn" id="5_r4s4s"]
+[ext_resource type="PackedScene" uid="uid://4otdq5cpjqm7" path="res://玩家/玩家1/area_2d.tscn" id="6_ye0rp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x6ktk"]
 size = Vector2(20, 657)
@@ -59,3 +60,5 @@ position = Vector2(577, 0)
 shape = SubResource("RectangleShape2D_0riei")
 
 [node name="Node" parent="." unique_id=2119585985 instance=ExtResource("5_r4s4s")]
+
+[node name="Area2D6" parent="." unique_id=54661693 instance=ExtResource("6_ye0rp")]
