@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://bhb6nr2v5asmm"]
+
+[ext_resource type="Texture2D" uid="uid://dfqjbnxjcpgcy" path="res://separator.svg" id="1_x6ktk"]
+[ext_resource type="Script" uid="uid://oliltpjryack" path="res://地图/area_2d.gd" id="2_u4g10"]
+[ext_resource type="PackedScene" uid="uid://beqdim0byrqh2" path="res://小球/area_2d.tscn" id="3_0riei"]
+[ext_resource type="Script" uid="uid://c34jybawoud6" path="res://地图/area_2d_4.gd" id="4_25082"]
+[ext_resource type="PackedScene" uid="uid://by5ju0r21t6pd" path="res://积分场景/node.tscn" id="5_r4s4s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x6ktk"]
+size = Vector2(20, 657)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0riei"]
+size = Vector2(1174, 20)
+
+[node name="Node" type="Node" unique_id=2077521322]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1871115452]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.78125, 0.6072998, 0.6072998, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=713717843]
+position = Vector2(587, 323)
+scale = Vector2(1e-05, 25)
+texture = ExtResource("1_x6ktk")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1280305005]
+script = ExtResource("2_u4g10")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2146181897]
+position = Vector2(0, 318.5)
+shape = SubResource("RectangleShape2D_x6ktk")
+
+[node name="Area2D2" type="Area2D" parent="." unique_id=520449494]
+position = Vector2(1154, 7)
+script = ExtResource("2_u4g10")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2" unique_id=431749413]
+position = Vector2(0, 318.5)
+shape = SubResource("RectangleShape2D_x6ktk")
+
+[node name="Area2D3" parent="." unique_id=405446623 instance=ExtResource("3_0riei")]
+position = Vector2(731, 311)
+
+[node name="Area2D4" type="Area2D" parent="." unique_id=171852057]
+script = ExtResource("4_25082")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4" unique_id=2012951323]
+position = Vector2(577, 0)
+shape = SubResource("RectangleShape2D_0riei")
+
+[node name="Area2D5" type="Area2D" parent="." unique_id=1783426787]
+position = Vector2(0, 644)
+script = ExtResource("4_25082")
+y = -5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5" unique_id=603994443]
+position = Vector2(577, 0)
+shape = SubResource("RectangleShape2D_0riei")
+
+[node name="Node" parent="." unique_id=2119585985 instance=ExtResource("5_r4s4s")]

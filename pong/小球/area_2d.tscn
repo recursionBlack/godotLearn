@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://beqdim0byrqh2"]
+
+[ext_resource type="Texture2D" uid="uid://b7x4o1n87b2om" path="res://ball.svg" id="1_dasun"]
+[ext_resource type="Script" uid="uid://c5xyqx6yw8mvg" path="res://小球/area_2d.gd" id="1_mlnsu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mlnsu"]
+
+[node name="Area2D" type="Area2D" unique_id=405446623]
+position = Vector2(77, 168)
+script = ExtResource("1_mlnsu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1318511998]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_mlnsu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1481150940]
+texture = ExtResource("1_dasun")
