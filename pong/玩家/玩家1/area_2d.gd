@@ -4,6 +4,8 @@ extends Area2D
 func _physics_process(delta: float) -> void:
 	for i in get_overlapping_areas():
 		if i.is_in_group("Ball"):
+			var a = self.get_node("sound")
+			a.play()
 			i.vec.x = 5
 	var y1 = Input.get_action_strength("玩家1上")*5
 	var y2 = Input.get_action_strength("玩家1下")*5
