@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://crxvj6t0ko3v6"]
+
+[ext_resource type="Script" uid="uid://cuypnfs6kt55q" path="res://node.gd" id="1_sy5k4"]
+
+[node name="Node" type="Node" unique_id=663298276]
+script = ExtResource("1_sy5k4")
+
+[node name="Button" type="Button" parent="." unique_id=1539702929]
+offset_right = 96.0
+offset_bottom = 77.0
+text = "A按钮"
+
+[node name="Button2" type="Button" parent="." unique_id=1563831068]
+offset_left = 44.0
+offset_top = 24.0
+offset_right = 200.0
+offset_bottom = 134.0
+text = "B按钮"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
