@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://momrpkd4t5p3"]
 
 [ext_resource type="PackedScene" uid="uid://d0ei5q4xn6r0f" path="res://游戏场景/角色类场景/近战刀手/近战刀手.tscn" id="1_1sf6k"]
+[ext_resource type="PackedScene" uid="uid://d23nyden7tkmk" path="res://游戏场景/角色类场景/玩家/主角.tscn" id="2_84i15"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_84i15"]
 size = Vector2(718.5, 53.75)
@@ -20,5 +21,8 @@ shape = SubResource("RectangleShape2D_84i15")
 position = Vector2(779, 409)
 shape = SubResource("CircleShape2D_1sf6k")
 
+[node name="主角" parent="." unique_id=1090753158 instance=ExtResource("2_84i15")]
+position = Vector2(679, 359)
+
 [node name="近战刀手" parent="." unique_id=1439929864 instance=ExtResource("1_1sf6k")]
-position = Vector2(498, 412)
+position = Vector2(446, 411)

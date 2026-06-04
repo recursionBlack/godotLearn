@@ -55,9 +55,9 @@
 [ext_resource type="Texture2D" uid="uid://c2s5hmymwu2r5" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_6.png" id="53_4j3p3"]
 [ext_resource type="Texture2D" uid="uid://wfcb8knj161g" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_7.png" id="54_65h67"]
 [ext_resource type="Texture2D" uid="uid://brwyrrsakg8s6" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_8.png" id="55_g8hl4"]
-[ext_resource type="Script" uid="uid://c47vok5ak2riv" path="res://游戏场景/角色类场景/近战刀手/状态机/状态管理器.gd" id="56_itd4p"]
-[ext_resource type="Script" uid="uid://3ml6e2gyp42k" path="res://游戏场景/角色类场景/近战刀手/状态机/行走状态.gd" id="57_ihpdy"]
-[ext_resource type="Script" uid="uid://b706ybpwk3vmy" path="res://游戏场景/角色类场景/近战刀手/状态机/攻击状态.gd" id="58_xurxc"]
+[ext_resource type="Script" uid="uid://c47vok5ak2riv" path="res://游戏场景/角色类场景/玩家/状态机/状态管理器.gd" id="56_itd4p"]
+[ext_resource type="Script" uid="uid://3ml6e2gyp42k" path="res://游戏场景/角色类场景/玩家/状态机/Run.gd" id="57_ihpdy"]
+[ext_resource type="Script" uid="uid://b706ybpwk3vmy" path="res://游戏场景/角色类场景/玩家/状态机/攻击状态.gd" id="58_xurxc"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_sup3j"]
 animations = [{

@@ -1,0 +1,428 @@
+[gd_scene format=3 uid="uid://d23nyden7tkmk"]
+
+[ext_resource type="Script" uid="uid://bun3uufo6obvl" path="res://游戏场景/角色类场景/玩家/主角.gd" id="1_mpe2o"]
+[ext_resource type="Texture2D" uid="uid://cv1j46sqtft8c" path="res://assets/角色/Individual Sprites/adventurer-air-attack1-00.png" id="2_l8clg"]
+[ext_resource type="Texture2D" uid="uid://dwm5g1qqfbdvs" path="res://assets/角色/Individual Sprites/adventurer-air-attack1-01.png" id="3_h8jgt"]
+[ext_resource type="Texture2D" uid="uid://dyqmomrteiwqm" path="res://assets/角色/Individual Sprites/adventurer-air-attack1-02.png" id="4_jamdo"]
+[ext_resource type="Texture2D" uid="uid://doun2o6cc2gm1" path="res://assets/角色/Individual Sprites/adventurer-air-attack1-03.png" id="5_ohxja"]
+[ext_resource type="Texture2D" uid="uid://3kfx6xvo87uj" path="res://assets/角色/Individual Sprites/adventurer-air-attack2-00.png" id="6_wxrpm"]
+[ext_resource type="Texture2D" uid="uid://ca1kodpmwoycc" path="res://assets/角色/Individual Sprites/adventurer-air-attack2-01.png" id="7_2kvjk"]
+[ext_resource type="Texture2D" uid="uid://cb005fwqtan2h" path="res://assets/角色/Individual Sprites/adventurer-air-attack2-02.png" id="8_1idxt"]
+[ext_resource type="Texture2D" uid="uid://wkwpea2xjje2" path="res://assets/角色/Individual Sprites/adventurer-air-attack3-loop-00.png" id="9_ahjqt"]
+[ext_resource type="Texture2D" uid="uid://d0i6pbi47lhom" path="res://assets/角色/Individual Sprites/adventurer-air-attack3-loop-01.png" id="10_8ucer"]
+[ext_resource type="Texture2D" uid="uid://dhdn8losc5oj2" path="res://assets/角色/Individual Sprites/adventurer-air-attack3-rdy-00.png" id="11_tnm8g"]
+[ext_resource type="Texture2D" uid="uid://crjf0olxs5xfv" path="res://assets/角色/Individual Sprites/adventurer-air-attack-3-end-00.png" id="12_hjbtg"]
+[ext_resource type="Texture2D" uid="uid://bsobb8c76u6kn" path="res://assets/角色/Individual Sprites/adventurer-air-attack-3-end-01.png" id="13_f6db6"]
+[ext_resource type="Texture2D" uid="uid://vdafqemoin2u" path="res://assets/角色/Individual Sprites/adventurer-air-attack-3-end-02.png" id="14_ro30v"]
+[ext_resource type="Texture2D" uid="uid://1jhe88id66ih" path="res://assets/角色/Individual Sprites/adventurer-die-00.png" id="15_sh7po"]
+[ext_resource type="Texture2D" uid="uid://cb3w8dcw8q2uy" path="res://assets/角色/Individual Sprites/adventurer-die-01.png" id="16_mks0b"]
+[ext_resource type="Texture2D" uid="uid://44n0cuwk8d8r" path="res://assets/角色/Individual Sprites/adventurer-die-02.png" id="17_b0dnh"]
+[ext_resource type="Texture2D" uid="uid://gpmeg664tcc8" path="res://assets/角色/Individual Sprites/adventurer-die-03.png" id="18_ieib3"]
+[ext_resource type="Texture2D" uid="uid://b8fmy370sif2i" path="res://assets/角色/Individual Sprites/adventurer-die-04.png" id="19_c2jw6"]
+[ext_resource type="Texture2D" uid="uid://c7rysfsf7wx21" path="res://assets/角色/Individual Sprites/adventurer-die-05.png" id="20_eahln"]
+[ext_resource type="Texture2D" uid="uid://db2s184qrceq1" path="res://assets/角色/Individual Sprites/adventurer-die-06.png" id="21_ixu8l"]
+[ext_resource type="Texture2D" uid="uid://dmr6afrogcff" path="res://assets/角色/Individual Sprites/adventurer-fall-00.png" id="22_wv0im"]
+[ext_resource type="Texture2D" uid="uid://bhjtscko81nme" path="res://assets/角色/Individual Sprites/adventurer-fall-01.png" id="23_qh0w0"]
+[ext_resource type="Texture2D" uid="uid://dl4l16odxdm0k" path="res://assets/角色/Individual Sprites/adventurer-walk-05.png" id="24_3wocs"]
+[ext_resource type="Texture2D" uid="uid://cbbssj67c35qa" path="res://assets/角色/Individual Sprites/adventurer-idle-00.png" id="25_g6viw"]
+[ext_resource type="Texture2D" uid="uid://cvx11aaulj75e" path="res://assets/角色/Individual Sprites/adventurer-idle-01.png" id="26_idvhe"]
+[ext_resource type="Texture2D" uid="uid://mspabmtnbcdf" path="res://assets/角色/Individual Sprites/adventurer-idle-02.png" id="27_rtq6t"]
+[ext_resource type="Texture2D" uid="uid://c424o55qlonr3" path="res://assets/角色/Individual Sprites/adventurer-idle-03.png" id="28_8rgfb"]
+[ext_resource type="Texture2D" uid="uid://pc30m6mm8egt" path="res://assets/角色/Individual Sprites/adventurer-jump-03.png" id="29_kvsfs"]
+[ext_resource type="Texture2D" uid="uid://vd3fqcahd6cw" path="res://assets/角色/Individual Sprites/adventurer-smrslt-00.png" id="30_f0rjd"]
+[ext_resource type="Texture2D" uid="uid://lg22hyhd15c0" path="res://assets/角色/Individual Sprites/adventurer-smrslt-01.png" id="31_lwg5y"]
+[ext_resource type="Texture2D" uid="uid://b8ykretmn21l2" path="res://assets/角色/Individual Sprites/adventurer-smrslt-02.png" id="32_rn007"]
+[ext_resource type="Texture2D" uid="uid://dfqyhv5qo3082" path="res://assets/角色/Individual Sprites/adventurer-smrslt-03.png" id="33_dbagb"]
+[ext_resource type="Texture2D" uid="uid://c42uea5hmqgpd" path="res://assets/角色/Individual Sprites/adventurer-jump-00.png" id="34_yqr1k"]
+[ext_resource type="Texture2D" uid="uid://bgylp3hhhpj3o" path="res://assets/角色/Individual Sprites/adventurer-jump-01.png" id="35_io3r7"]
+[ext_resource type="Texture2D" uid="uid://dn3qk613pxjya" path="res://assets/角色/Individual Sprites/adventurer-jump-02.png" id="36_j8lov"]
+[ext_resource type="Texture2D" uid="uid://bvyvaoyjqgj1g" path="res://assets/角色/Individual Sprites/adventurer-run3-00.png" id="37_lbt8f"]
+[ext_resource type="Texture2D" uid="uid://c16im4srrag5u" path="res://assets/角色/Individual Sprites/adventurer-run3-01.png" id="38_3skl3"]
+[ext_resource type="Texture2D" uid="uid://cnf1noqu6hj3r" path="res://assets/角色/Individual Sprites/adventurer-run3-02.png" id="39_parxl"]
+[ext_resource type="Texture2D" uid="uid://cvmgcab1xa4nm" path="res://assets/角色/Individual Sprites/adventurer-run3-03.png" id="40_lfyks"]
+[ext_resource type="Texture2D" uid="uid://8dtxl8c4cjyp" path="res://assets/角色/Individual Sprites/adventurer-run3-04.png" id="41_4mvp4"]
+[ext_resource type="Texture2D" uid="uid://dy825i6dve0cu" path="res://assets/角色/Individual Sprites/adventurer-run3-05.png" id="42_1aifq"]
+[ext_resource type="Texture2D" uid="uid://dugtt0hg6maxj" path="res://assets/角色/Individual Sprites/adventurer-hurt-00.png" id="43_32bg2"]
+[ext_resource type="Texture2D" uid="uid://dhiyb6lbcdp0c" path="res://assets/角色/Individual Sprites/adventurer-hurt-01.png" id="44_s0fgf"]
+[ext_resource type="Texture2D" uid="uid://bnginufb4i62" path="res://assets/角色/Individual Sprites/adventurer-hurt-02.png" id="45_3om8n"]
+[ext_resource type="Script" uid="uid://c47vok5ak2riv" path="res://游戏场景/角色类场景/玩家/状态机/状态管理器.gd" id="46_ahjqt"]
+[ext_resource type="Script" uid="uid://dgfd7vsoc3nj0" path="res://游戏场景/角色类场景/玩家/状态机/Idle.gd" id="46_h8jgt"]
+[ext_resource type="Script" uid="uid://3ml6e2gyp42k" path="res://游戏场景/角色类场景/近战刀手/状态机/行走状态.gd" id="47_jamdo"]
+[ext_resource type="Script" uid="uid://b706ybpwk3vmy" path="res://游戏场景/角色类场景/玩家/状态机/Attack.gd" id="48_1idxt"]
+[ext_resource type="Script" uid="uid://ctjsk0ftp8fa5" path="res://游戏场景/角色类场景/玩家/状态机/Take_hit.gd" id="48_2kvjk"]
+[ext_resource type="Script" uid="uid://dhah6xrp85ysg" path="res://游戏场景/角色类场景/玩家/状态机/Jump.gd" id="48_ohxja"]
+[ext_resource type="Script" uid="uid://dlt1fkmuisw6e" path="res://游戏场景/角色类场景/玩家/状态机/Fall.gd" id="49_wxrpm"]
+[ext_resource type="Texture2D" uid="uid://c0ehh77yrdc4k" path="res://assets/角色/Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/greenbar (3).png" id="53_tnm8g"]
+[ext_resource type="Texture2D" uid="uid://duerfno28vmoa" path="res://assets/角色/Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/greenbar (1).png" id="54_hjbtg"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cs3xr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_l8clg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_h8jgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jamdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ohxja")
+}],
+"loop": true,
+"name": &"Attack1",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_wxrpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2kvjk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1idxt")
+}],
+"loop": true,
+"name": &"Attack2",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_ahjqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_8ucer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_tnm8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hjbtg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_f6db6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ro30v")
+}],
+"loop": true,
+"name": &"Attack3",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_sh7po")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_mks0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b0dnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ieib3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_c2jw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_eahln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ixu8l")
+}],
+"loop": true,
+"name": &"Death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_wv0im")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_qh0w0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_3wocs")
+}],
+"loop": true,
+"name": &"Fall",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_g6viw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_idvhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_rtq6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_8rgfb")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_kvsfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_f0rjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_lwg5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_rn007")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_dbagb")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_yqr1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_io3r7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_j8lov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_kvsfs")
+}],
+"loop": true,
+"name": &"Prejump",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_lbt8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_3skl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_parxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_lfyks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_4mvp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_1aifq")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_32bg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_s0fgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_3om8n")
+}],
+"loop": true,
+"name": &"Take_hit",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_386a5"]
+size = Vector2(15, 40)
+
+[sub_resource type="Animation" id="Animation_1idxt"]
+resource_name = "攻击1"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Attack1", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_ahjqt"]
+resource_name = "攻击2"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.01),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Attack2", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"attack2l_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_8ucer"]
+resource_name = "攻击3"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"attack2r_check"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tnm8g"]
+_data = {
+&"攻击1": SubResource("Animation_1idxt"),
+&"攻击2": SubResource("Animation_ahjqt"),
+&"攻击3": SubResource("Animation_8ucer")
+}
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f6db6"]
+atlas = ExtResource("53_tnm8g")
+region = Rect2(10.5, 50, 109, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ro30v"]
+atlas = ExtResource("54_hjbtg")
+region = Rect2(10.5, 19.5, 110, 14)
+
+[node name="主角" type="CharacterBody2D" unique_id=1090753158]
+script = ExtResource("1_mpe2o")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=463273297]
+position = Vector2(0, -0.99999994)
+scale = Vector2(1.4, 1.4)
+sprite_frames = SubResource("SpriteFrames_cs3xr")
+animation = &"Idle"
+frame = 3
+frame_progress = 0.65833217
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=720645253]
+position = Vector2(0.5, 3)
+shape = SubResource("RectangleShape2D_386a5")
+
+[node name="Attack_Check" type="Node2D" parent="." unique_id=2117732716]
+
+[node name="A1" type="Area2D" parent="Attack_Check" unique_id=428735964]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Attack_Check/A1" unique_id=1558310495]
+
+[node name="A2" type="Area2D" parent="Attack_Check" unique_id=76866105]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Attack_Check/A2" unique_id=37970952]
+
+[node name="A3" type="Area2D" parent="Attack_Check" unique_id=50258234]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Attack_Check/A3" unique_id=310744235]
+
+[node name="FSM" type="Node" parent="." unique_id=1053548570]
+script = ExtResource("46_ahjqt")
+
+[node name="Idle" type="Node" parent="FSM" unique_id=810276051]
+script = ExtResource("46_h8jgt")
+
+[node name="Run" type="Node" parent="FSM" unique_id=311543295]
+script = ExtResource("47_jamdo")
+
+[node name="Attack" type="Node" parent="FSM" unique_id=1312127494]
+script = ExtResource("48_1idxt")
+
+[node name="Timer" type="Timer" parent="FSM/Attack" unique_id=1506033555]
+
+[node name="Jump" type="Node" parent="FSM" unique_id=27986259]
+script = ExtResource("48_ohxja")
+
+[node name="Fall" type="Node" parent="FSM" unique_id=1153871020]
+script = ExtResource("49_wxrpm")
+
+[node name="Take_hit" type="Node" parent="FSM" unique_id=385709946]
+script = ExtResource("48_2kvjk")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=288132773]
+zoom = Vector2(3, 3)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=2064762828]
+libraries/ = SubResource("AnimationLibrary_tnm8g")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1553026434]
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="CanvasLayer" unique_id=842754588]
+offset_left = 25.000002
+offset_top = 34.0
+offset_right = 170.0
+offset_bottom = 179.0
+scale = Vector2(3, 3)
+value = 85.0
+texture_under = SubResource("AtlasTexture_f6db6")
+texture_progress = SubResource("AtlasTexture_ro30v")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Attack" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="timeout" from="FSM/Attack/Timer" to="FSM/Attack" method="_on_timer_timeout"]
