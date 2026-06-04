@@ -1,0 +1,237 @@
+[gd_scene format=3 uid="uid://dw275jv3m5fcv"]
+
+[ext_resource type="Script" uid="uid://1rdgc54nglc5" path="res://游戏场景/角色类场景/远程弓箭手/远程弓箭手.gd" id="1_h8bcr"]
+[ext_resource type="Texture2D" uid="uid://bavc7ipuva8ry" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_1.png" id="2_iid1h"]
+[ext_resource type="Texture2D" uid="uid://ds2cou8x4u07p" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_2.png" id="3_plnvk"]
+[ext_resource type="Texture2D" uid="uid://cvx6alxnknx61" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_3.png" id="4_y8bvi"]
+[ext_resource type="Texture2D" uid="uid://b26nvnyylvrmq" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_4.png" id="5_y6vt5"]
+[ext_resource type="Texture2D" uid="uid://c4ahfy7hjadj2" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_5.png" id="6_drgti"]
+[ext_resource type="Texture2D" uid="uid://cw1ni5w7pvcp8" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_6.png" id="7_iqw6f"]
+[ext_resource type="Texture2D" uid="uid://b4x8myp17m6wi" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_1.png" id="8_b8gfn"]
+[ext_resource type="Texture2D" uid="uid://dir4h2g3q20n7" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_2.png" id="9_t0bs6"]
+[ext_resource type="Texture2D" uid="uid://b1ged7a7mdq1d" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_3.png" id="10_23ox7"]
+[ext_resource type="Texture2D" uid="uid://dak4476kl0ael" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_4.png" id="11_5f78h"]
+[ext_resource type="Texture2D" uid="uid://cn2mwuyoig1px" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_5.png" id="12_u8nro"]
+[ext_resource type="Texture2D" uid="uid://ir15f1c7h7fj" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_6.png" id="13_my8um"]
+[ext_resource type="Texture2D" uid="uid://bp7i86lqq5avp" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_7.png" id="14_3h6hm"]
+[ext_resource type="Texture2D" uid="uid://4r31xjm1gjmk" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_8.png" id="15_lqh35"]
+[ext_resource type="Texture2D" uid="uid://dpbi5osep6l55" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_9.png" id="16_v4bfs"]
+[ext_resource type="Texture2D" uid="uid://565pycy428mt" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_10.png" id="17_jf7w4"]
+[ext_resource type="Texture2D" uid="uid://qt7a50n4gn8g" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_11.png" id="18_og0tj"]
+[ext_resource type="Texture2D" uid="uid://dwxacnm48uf33" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_12.png" id="19_vjc03"]
+[ext_resource type="Texture2D" uid="uid://dx7gt6x26m15n" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_13.png" id="20_jqqhu"]
+[ext_resource type="Texture2D" uid="uid://d0kt042jx56ix" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_14.png" id="21_41q7h"]
+[ext_resource type="Texture2D" uid="uid://bjbk4tw2slc74" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_15.png" id="22_2aq53"]
+[ext_resource type="Texture2D" uid="uid://dnswfxdhpetmk" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_1.png" id="23_oqp4y"]
+[ext_resource type="Texture2D" uid="uid://b1rhvjkd7eg4l" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_2.png" id="24_p1sur"]
+[ext_resource type="Texture2D" uid="uid://bir4w776evoj5" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_3.png" id="25_2r0i1"]
+[ext_resource type="Texture2D" uid="uid://dl1cbouu8jqk4" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_4.png" id="26_s058q"]
+[ext_resource type="Texture2D" uid="uid://b2vkxlc683jlg" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_5.png" id="27_vptcg"]
+[ext_resource type="Texture2D" uid="uid://e6h1tgs3baym" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_6.png" id="28_4mthl"]
+[ext_resource type="Texture2D" uid="uid://dek3dnqklks3" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_7.png" id="29_5artt"]
+[ext_resource type="Texture2D" uid="uid://ngwowlko8uss" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_8.png" id="30_r43xi"]
+[ext_resource type="Texture2D" uid="uid://mk2gmp13h00y" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_9.png" id="31_5bkp3"]
+[ext_resource type="Texture2D" uid="uid://dm4jcwokjdjh6" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_10.png" id="32_4kpsh"]
+[ext_resource type="Texture2D" uid="uid://cgn00gd4lhxft" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_11.png" id="33_8y4fv"]
+[ext_resource type="Texture2D" uid="uid://p2e0x7thcqnw" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_12.png" id="34_0iky2"]
+[ext_resource type="Texture2D" uid="uid://dkani2kjyf7ym" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_1.png" id="35_hs5vv"]
+[ext_resource type="Texture2D" uid="uid://bwqyqp1hmo6mw" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_2.png" id="36_h5emq"]
+[ext_resource type="Texture2D" uid="uid://khgem34aeoe6" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_3.png" id="37_jfe0l"]
+[ext_resource type="Texture2D" uid="uid://c052yut6utqhe" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_4.png" id="38_pl13e"]
+[ext_resource type="Texture2D" uid="uid://b656p7s84pcwc" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_5.png" id="39_dmt2y"]
+[ext_resource type="Texture2D" uid="uid://cc5jvqc8lwaol" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_6.png" id="40_xuwaa"]
+[ext_resource type="Texture2D" uid="uid://cm3irissxnjfw" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_7.png" id="41_xpwd0"]
+[ext_resource type="Texture2D" uid="uid://btch357brylv0" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_8.png" id="42_xba4e"]
+[ext_resource type="Texture2D" uid="uid://bd7diajc3dsg6" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_9.png" id="43_lnd3v"]
+[ext_resource type="Texture2D" uid="uid://cc5216uwrhvdr" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_10.png" id="44_foxwx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sup3j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_iid1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_plnvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_y8bvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_y6vt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_drgti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_iqw6f")
+}],
+"loop": false,
+"name": &"受击",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_b8gfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_t0bs6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_23ox7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_5f78h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_u8nro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_my8um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3h6hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_lqh35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_v4bfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_jf7w4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_og0tj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_vjc03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_jqqhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_41q7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2aq53")
+}],
+"loop": false,
+"name": &"攻击",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_oqp4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_p1sur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2r0i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_s058q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_vptcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_4mthl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_5artt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_r43xi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_5bkp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_4kpsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_8y4fv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_0iky2")
+}],
+"loop": false,
+"name": &"死亡",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("35_hs5vv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_h5emq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_jfe0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_pl13e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_dmt2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_xuwaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_xpwd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_xba4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_lnd3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_foxwx")
+}],
+"loop": true,
+"name": &"移动",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_frlij"]
+size = Vector2(12, 40)
+
+[node name="远程弓箭手" type="CharacterBody2D" unique_id=1439929864]
+script = ExtResource("1_h8bcr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=162589824]
+sprite_frames = SubResource("SpriteFrames_sup3j")
+animation = &"攻击"
+frame = 5
+frame_progress = 0.2209872
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=63645317]
+shape = SubResource("RectangleShape2D_frlij")
+
+[node name="RightDownCast" type="RayCast2D" parent="." unique_id=1462770900]
+position = Vector2(20, 0)
+
+[node name="LeftDownCast" type="RayCast2D" parent="." unique_id=1685428035]
+position = Vector2(-20, 0)
+
+[node name="RAtk" type="Node2D" parent="." unique_id=1702324584]
+position = Vector2(33, -11)
+
+[node name="LAtk" type="Node2D" parent="." unique_id=899006362]
+position = Vector2(-34, -11)
+
+[node name="RightAtkCheck" type="RayCast2D" parent="." unique_id=202506063]
+position = Vector2(33, -11)
+target_position = Vector2(100, 0)
+
+[node name="LeftAtkCheck" type="RayCast2D" parent="." unique_id=217705856]
+position = Vector2(-34, -11)
+target_position = Vector2(-100, 0)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_frame_changed"]

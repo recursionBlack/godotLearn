@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://xbv0vuxriw4g"]
+
+[ext_resource type="Script" uid="uid://djtdcfmfnicmc" path="res://游戏场景/角色类场景/远程弓箭手/弓箭/弓箭.gd" id="1_w3oxl"]
+[ext_resource type="Texture2D" uid="uid://cbrhvj5d3hgr7" path="res://assets/远程敌人/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/arrow/arrow_.png" id="1_ygyus"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w3oxl"]
+size = Vector2(15, 5)
+
+[node name="弓箭" type="Area2D" unique_id=949530830]
+script = ExtResource("1_w3oxl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=63693925]
+texture = ExtResource("1_ygyus")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1140058685]
+position = Vector2(9.5, -0.5)
+shape = SubResource("RectangleShape2D_w3oxl")
