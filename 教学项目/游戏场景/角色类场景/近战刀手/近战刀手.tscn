@@ -1,0 +1,407 @@
+[gd_scene format=3 uid="uid://d0ei5q4xn6r0f"]
+
+[ext_resource type="Script" uid="uid://1rdgc54nglc5" path="res://游戏场景/角色类场景/远程弓箭手/远程弓箭手.gd" id="1_u4jk3"]
+[ext_resource type="Texture2D" uid="uid://db05fltcxyj1q" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_1.png" id="2_a5e4x"]
+[ext_resource type="Texture2D" uid="uid://4ny3lka1g8wo" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_2.png" id="3_ihpdy"]
+[ext_resource type="Texture2D" uid="uid://bs4sqnh0e0k8j" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_3.png" id="4_xurxc"]
+[ext_resource type="Texture2D" uid="uid://cl7pfgivo5253" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_4.png" id="5_a5m54"]
+[ext_resource type="Texture2D" uid="uid://bb6vbditx3urb" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_5.png" id="6_md3if"]
+[ext_resource type="Texture2D" uid="uid://bhng6ho5nmk6f" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_6.png" id="7_o3821"]
+[ext_resource type="Texture2D" uid="uid://bayxpn2ot4rhl" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_1.png" id="8_scd71"]
+[ext_resource type="Texture2D" uid="uid://e3d0ng6ghktx" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_2.png" id="9_r4rsb"]
+[ext_resource type="Texture2D" uid="uid://b7p7fg4joqiw5" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_3.png" id="10_0idtm"]
+[ext_resource type="Texture2D" uid="uid://cxs13f2mro7jx" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_4.png" id="11_mvdpt"]
+[ext_resource type="Texture2D" uid="uid://csm8557beh6k" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_5.png" id="12_7r6uo"]
+[ext_resource type="Texture2D" uid="uid://breqklsidxpks" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_6.png" id="13_kxlam"]
+[ext_resource type="Texture2D" uid="uid://bso7ggp8ueh2m" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_7.png" id="14_pek3t"]
+[ext_resource type="Texture2D" uid="uid://c21qok88np2en" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_8.png" id="15_ad0ji"]
+[ext_resource type="Texture2D" uid="uid://bk5frh4b73m74" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_9.png" id="16_x8vad"]
+[ext_resource type="Texture2D" uid="uid://bvbydfwwvbxyn" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_10.png" id="17_ne3qc"]
+[ext_resource type="Texture2D" uid="uid://bi6tbkqtklvyx" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_11.png" id="18_6h5ya"]
+[ext_resource type="Texture2D" uid="uid://dtnmxwrktt5vh" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_1.png" id="19_3qxkp"]
+[ext_resource type="Texture2D" uid="uid://b4xymmmj1gg4w" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_2.png" id="20_lrdt5"]
+[ext_resource type="Texture2D" uid="uid://cbxc03rihpwty" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_3.png" id="21_c6tg1"]
+[ext_resource type="Texture2D" uid="uid://bgg3pcxg3djqs" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_4.png" id="22_a8gks"]
+[ext_resource type="Texture2D" uid="uid://c5kypd03ikyk4" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_5.png" id="23_vfudf"]
+[ext_resource type="Texture2D" uid="uid://c5u1xfqq21ylr" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_6.png" id="24_tk3cl"]
+[ext_resource type="Texture2D" uid="uid://6nwie21pmn7q" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_7.png" id="25_b1cmv"]
+[ext_resource type="Texture2D" uid="uid://uxikt6gdc52q" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_8.png" id="26_78ccv"]
+[ext_resource type="Texture2D" uid="uid://btmfx6gc5iay" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_9.png" id="27_2eekt"]
+[ext_resource type="Texture2D" uid="uid://bnisyp00wbydu" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_10.png" id="28_g03m6"]
+[ext_resource type="Texture2D" uid="uid://do6dabamndak1" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_11.png" id="29_xa8uh"]
+[ext_resource type="Texture2D" uid="uid://bxudsumlitpgd" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_12.png" id="30_5qpnc"]
+[ext_resource type="Texture2D" uid="uid://bxw4tl627cafr" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_13.png" id="31_mykye"]
+[ext_resource type="Texture2D" uid="uid://coco1ytmjgyfm" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_14.png" id="32_fidru"]
+[ext_resource type="Texture2D" uid="uid://by6t1stbj4827" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_15.png" id="33_eihui"]
+[ext_resource type="Texture2D" uid="uid://dke4tlswu7jdm" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_16.png" id="34_orr8t"]
+[ext_resource type="Texture2D" uid="uid://be3mqm2kjgkq2" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_17.png" id="35_mrxqc"]
+[ext_resource type="Texture2D" uid="uid://bvpanvh2tf8io" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_18.png" id="36_keo54"]
+[ext_resource type="Texture2D" uid="uid://dmphjjluk3fra" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_19.png" id="37_g7skf"]
+[ext_resource type="Texture2D" uid="uid://rp4riagwx735" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_1.png" id="38_e586e"]
+[ext_resource type="Texture2D" uid="uid://56660a05r060" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_2.png" id="39_50sgf"]
+[ext_resource type="Texture2D" uid="uid://bxju68xbtlrqr" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_3.png" id="40_d3cr3"]
+[ext_resource type="Texture2D" uid="uid://bl17w10rmp2xy" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_4.png" id="41_o407r"]
+[ext_resource type="Texture2D" uid="uid://dlgsq5jst30j8" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_5.png" id="42_4rmar"]
+[ext_resource type="Texture2D" uid="uid://dveidcs1ltmpw" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_6.png" id="43_dyqtt"]
+[ext_resource type="Texture2D" uid="uid://ceetjies0rw5h" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_7.png" id="44_r1uqd"]
+[ext_resource type="Texture2D" uid="uid://dqucd0prnlm53" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_8.png" id="45_rsa0f"]
+[ext_resource type="Texture2D" uid="uid://dhxyofn5ikqfw" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_9.png" id="46_l2sn6"]
+[ext_resource type="Texture2D" uid="uid://deh35nomqcghy" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_10.png" id="47_40nrq"]
+[ext_resource type="Texture2D" uid="uid://15ba1a6cu753" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_1.png" id="48_bmpmd"]
+[ext_resource type="Texture2D" uid="uid://fvmo2mc5dsbg" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_2.png" id="49_pdju2"]
+[ext_resource type="Texture2D" uid="uid://cfl3tf30fvwe6" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_3.png" id="50_s51fy"]
+[ext_resource type="Texture2D" uid="uid://x07j63ukv7nu" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_4.png" id="51_vaja2"]
+[ext_resource type="Texture2D" uid="uid://c1fhk4m5tym1x" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_5.png" id="52_m4qpu"]
+[ext_resource type="Texture2D" uid="uid://c2s5hmymwu2r5" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_6.png" id="53_4j3p3"]
+[ext_resource type="Texture2D" uid="uid://wfcb8knj161g" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_7.png" id="54_65h67"]
+[ext_resource type="Texture2D" uid="uid://brwyrrsakg8s6" path="res://assets/近战敌人/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_8.png" id="55_g8hl4"]
+[ext_resource type="Script" uid="uid://c47vok5ak2riv" path="res://游戏场景/角色类场景/近战刀手/状态机/状态管理器.gd" id="56_itd4p"]
+[ext_resource type="Script" uid="uid://3ml6e2gyp42k" path="res://游戏场景/角色类场景/近战刀手/状态机/行走状态.gd" id="57_ihpdy"]
+[ext_resource type="Script" uid="uid://b706ybpwk3vmy" path="res://游戏场景/角色类场景/近战刀手/状态机/攻击状态.gd" id="58_xurxc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sup3j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_a5e4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ihpdy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xurxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_a5m54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_md3if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o3821")
+}],
+"loop": false,
+"name": &"受击",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_scd71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_r4rsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0idtm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mvdpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_7r6uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_kxlam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_pek3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ad0ji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_x8vad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ne3qc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_6h5ya")
+}],
+"loop": false,
+"name": &"攻击1",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_3qxkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lrdt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_c6tg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_a8gks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_vfudf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tk3cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_b1cmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_78ccv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_2eekt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_g03m6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_xa8uh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_5qpnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_mykye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_fidru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_eihui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_orr8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_mrxqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_keo54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_g7skf")
+}],
+"loop": false,
+"name": &"攻击2",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_e586e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_50sgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_d3cr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_o407r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_4rmar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_dyqtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_r1uqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_rsa0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_l2sn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_40nrq")
+}],
+"loop": false,
+"name": &"死亡",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("48_bmpmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_pdju2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_s51fy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_vaja2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_m4qpu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_4j3p3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_65h67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_g8hl4")
+}],
+"loop": true,
+"name": &"移动",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_frlij"]
+size = Vector2(12, 40)
+
+[sub_resource type="Animation" id="Animation_a5m54"]
+resource_name = "攻击1"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"攻击1", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.63),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_md3if"]
+resource_name = "攻击2"
+length = 2.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"攻击2", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.6, 1.36, 1.62, 1.76),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}, {
+"args": [],
+"method": &"attack2l_check"
+}, {
+"args": [],
+"method": &"attack2r_check"
+}, {
+"args": [],
+"method": &"attack2r_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_xurxc"]
+resource_name = "走动"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.010000002),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"移动", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_a5m54"]
+_data = {
+&"攻击1": SubResource("Animation_a5m54"),
+&"攻击2": SubResource("Animation_md3if"),
+&"走动": SubResource("Animation_xurxc")
+}
+
+[node name="近战刀手" type="CharacterBody2D" unique_id=1439929864]
+script = ExtResource("1_u4jk3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=162589824]
+sprite_frames = SubResource("SpriteFrames_sup3j")
+animation = &"攻击2"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=63645317]
+shape = SubResource("RectangleShape2D_frlij")
+
+[node name="RightDownCast" type="RayCast2D" parent="." unique_id=1462770900]
+position = Vector2(20, 0)
+
+[node name="LeftDownCast" type="RayCast2D" parent="." unique_id=1685428035]
+position = Vector2(-20, 0)
+
+[node name="AtkCheck" type="Node2D" parent="." unique_id=50931953]
+
+[node name="A1" type="Area2D" parent="AtkCheck" unique_id=1939424391]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AtkCheck/A1" unique_id=172061634]
+position = Vector2(46, -30)
+polygon = PackedVector2Array(-37, -35, -6, -56, 17, -23, 26, 24, 24, 49, -12, 50, -9, 11, -20, -15)
+
+[node name="A2l" type="Area2D" parent="AtkCheck" unique_id=513282078]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AtkCheck/A2l" unique_id=1760575570]
+position = Vector2(41, -3)
+polygon = PackedVector2Array(-18, -10, 33, -9, 64, 4, 65, 24, 37, 20, 23, 18, -14, 22)
+
+[node name="A2r" type="Area2D" parent="AtkCheck" unique_id=2068145531]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AtkCheck/A2r" unique_id=1105503295]
+position = Vector2(-63, -2)
+polygon = PackedVector2Array(-25, -5, -35, 25, 17, 24, 42, -4, 18, -18, -17, -17)
+
+[node name="FSM" type="Node" parent="." unique_id=1039371188]
+script = ExtResource("56_itd4p")
+
+[node name="Run" type="Node" parent="FSM" unique_id=300941666]
+script = ExtResource("57_ihpdy")
+
+[node name="Attack" type="Node" parent="FSM" unique_id=1016327419]
+script = ExtResource("58_xurxc")
+
+[node name="Timer" type="Timer" parent="FSM/Attack" unique_id=1099904981]
+wait_time = 0.25
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1034795771]
+libraries/ = SubResource("AnimationLibrary_a5m54")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Attack" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_frame_changed"]
